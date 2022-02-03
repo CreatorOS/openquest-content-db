@@ -420,6 +420,13 @@
         "github_url": "https://raw.githubusercontent.com/CreatorOS/starting-with-polygon-nfts/master",
         "level": "Beginner",
         "desc": "In this quest, we will be looking at how to code and deploy NFTs to Polygon's Mumbai."
+      },
+      {
+        "slug": "gaming-on-solana-with-nft-and-circle-as-crypto-payment-gateway",
+        "questName": "Gaming on Solana with NFT and Circle as crypto payment gateway",
+        "github_url": "https://raw.githubusercontent.com/CreatorOS/gaming-on-solana-with-nft-and-circle-as-crypto-payment-gateway/main",
+        "level": "Intermediate",
+        "desc": "In this quest you will be able to build a decentralized gaming platform where users will be able to play the game by paying SOL to a wallet and will be able to create the NFT for the game scores"
       }
     ]
   },
