@@ -3,16 +3,16 @@
   "type": "object",
   "description": "Schema for the metadata of the quests on different protocols",
   "properties": {
-    "build-on-<name-of-protocol>": {
+    "build-on-solana": {
       "type": "object",
       "properties": {
         "trackName": {
           "type": "string",
-          "description": "Name of the track"
+          "description": "Gaming on Solana with NFT and Circle as crypto payment gateway"
         },
         "protocol": {
           "type": "string",
-          "description": "Name of the protocol"
+          "description": "Solana"
         },
         "cardThumbnail": {
           "type": "string",
@@ -20,7 +20,7 @@
         },
         "desc": {
           "type": "string",
-          "description": "Short one-line description of the protocol"
+          "description": "Build a Gamifi DApp using Solana Blockchain, NFT and Circle payment gateway"
         },
         "quests": {
           "type": "array",
@@ -30,23 +30,23 @@
               "properties": {
                 "slug": {
                   "type": "string",
-                  "description": "This shows up in url path. Same as questName but all lowercase and joined using dashes -"
+                  "description": "gaming-on-solana-with-nft-and-circle-as-crypto-payment-gateway"
                 },
                 "questName": {
                   "type": "string",
-                  "description": "Name of the quest"
+                  "description": "Gaming on Solana with NFT and Circle as crypto payment gateway"
                 },
                 "github_url": {
                   "type": "string",
-                  "description": "Raw github url of the branch where the quest content resides"
+                  "description": "https://raw.githubusercontent.com/CreatorOS/gaming-on-solana-with-nft-and-circle-as-crypto-payment-gateway/main"
                 },
                 "level": {
                   "type": "string",
-                  "description": "The difficulty level of the quest either Beginner, Intermediate or Advanced"
+                  "description": "Intermediate"
                 },
                 "desc": {
                   "type": "string",
-                  "description": "Short description of what the learner should expect to learn from this quest"
+                  "description": "In this quest you will be able to build a decentralized gaming platform where users will be able to play the game by paying SOL to a wallet and will be able to create the NFT for the game scores"
                 }
               },
               "required": [
@@ -70,6 +70,6 @@
     }
   },
   "required": [
-    "build-on-<name-of-protocol>"
+    "build-on-solana"
   ]
 }
