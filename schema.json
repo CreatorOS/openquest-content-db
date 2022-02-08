@@ -38,7 +38,7 @@
                 },
                 "github_url": {
                   "type": "string",
-                  "description": "https://raw.githubusercontent.com/CreatorOS/gaming-on-solana-with-nft-and-circle-as-crypto-payment-gateway/main"
+                  "description": "https://github.com/solanauniversity/gaming-on-solana/tree/main"
                 },
                 "level": {
                   "type": "string",
